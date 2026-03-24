@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correndo pela Vida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="tag-badge">
+                <i class="fa-solid fa-book-open"></i> Ebook e projeto social
+            </div>
+            <h1>Uma história <br><span class="highlight">divertida</span> para<br>quem vai começar a<br><span class="highlight-orange">correr pela primeira vez</span> <i class="fa-solid fa-person-running"></i></h1>
+            
+            <p class="hero-description">
+                Com uma linguagem lúdica, dicas práticas e ilustrações acolhedoras, este livro ajuda crianças e adultos a lidarem com os primeiros quilômetros, e orienta todos no processo de adaptação ao esporte.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#modal-lead" id="btn-free" class="btn btn-primary">Baixar grátis (PDF)</a>
+                <a href="https://pay.kiwify.com.br/3bXtiR4" target="_blank" class="btn btn-secondary">Apoiar esse projeto</a>
+            </div>
+        </div>
+        
+        <div class="hero-image-container">
+            <!-- Using generated hero image. Need the actual dynamic name -->
+            <img id="hero-img" src="images/hero_book_1773446508617.png" alt="Criança correndo com o livro Correndo pela Vida" class="hero-img">
+            <div class="curved-bg"></div>
+        </div>
+    </header>
+
+    <!-- DIVIDER WAVE -->
+    <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+        <path fill="#FAF7EF" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,53.3C384,43,480,21,576,26.7C672,32,768,64,864,80C960,96,1056,96,1152,85.3C1248,75,1344,53,1392,42.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+
+    <!-- SECTION: WHY IT MATTERS -->
+    <section class="why-matters">
+        <div class="section-badge">
+            <i class="fa-solid fa-chart-pie"></i> Dados relevantes
+        </div>
+        <h2>Por que isso importa?</h2>
+
+        <div class="cards-container">
+            <!-- Card 1 (Yellow) -->
+            <div class="info-card card-yellow">
+                <div class="card-img-wrapper">
+                    <img id="card-img-1" src="images/running_prevention_1773446447337.png" alt="Doutor e jovem correndo">
+                </div>
+                <p>80% dos problemas cardiovasculares podem ser <strong>prevenidos ou tratados</strong> com o hábito de correr e diagnóstico precoce.</p>
+            </div>
+
+            <!-- Card 2 (Orange) -->
+            <div class="info-card card-orange">
+                <div class="card-img-wrapper">
+                    <img id="card-img-2" src="images/starting_runner_1773446463436.png" alt="Treinadora orientando">
+                </div>
+                <p>Quase 800 mil crianças e adultos brasileiros encontram na corrida uma <strong>nova perspectiva</strong> para uma vida saudável.</p>
+            </div>
+
+            <!-- Card 3 (Green) -->
+            <div class="info-card card-green">
+                <div class="card-img-wrapper">
+                    <img id="card-img-3" src="images/joyful_runners_1773446477801.png" alt="Crianças correndo felizes">
+                </div>
+                <p>18,63% das crianças podem apresentar <strong>melhorias na autoestima e foco</strong> com esportes e corrida ao ar livre.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIVIDER MULTI-WAVE -->
+    <div class="wave-container">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(88, 114, 122, 0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(88, 114, 122, 0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(88, 114, 122, 0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#789299" />
+            </g>
+        </svg>
+    </div>
+
+    <!-- SECTION: FOR WHOM? -->
+    <section class="for-whom">
+        <div class="floating-icons">
+            <i class="fa-solid fa-shoe-prints right-icon"></i>
+        </div>
+        <h2>Para quem é o livro?</h2>
+
+        <div class="whom-list">
+            <div class="whom-item">
+                <div class="icon-box icon-orange"><i class="fa-solid fa-children"></i></div>
+                <h3>Pais e responsáveis:</h3>
+                <p>transforme a primeira corrida em um momento positivo e sem drama.</p>
+            </div>
+
+            <div class="whom-item">
+                <div class="icon-box icon-yellow"><i class="fa-solid fa-person-chalkboard"></i></div>
+                <h3>Professores e escolas:</h3>
+                <p>identifique sinais em sala e acolha o aluno com orientações simples sobre esportes.</p>
+            </div>
+
+            <div class="whom-item">
+                <div class="icon-box icon-olive"><i class="fa-solid fa-user-doctor"></i></div>
+                <h3>Profissionais da saúde:</h3>
+                <p>facilite a adesão aos treinos com um material lúdico para o consultório.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: AUTHOR BIO -->
+    <section class="bio-section">
+        <div class="bio-container">
+            <div class="bio-image">
+                <img src="images/image.png" alt="Hugo Donizeti">
+            </div>
+            <div class="bio-text">
+                <div class="section-badge"><i class="fa-solid fa-user"></i> Autor</div>
+                <h2>Quem é Hugo Donizeti?</h2>
+                <p>Atleta e empreendedor com mais de 7 anos de experiência, fundador do projeto social <strong>Correndo pela Vida</strong>.</p>
+                <p>Participa de projetos e corridas sociais e educacionais pelo Brasil. Além de ser pai e viúvo, dedica-se a ajudar e incentivar pessoas à prática de esportes promovendo corridas beneficentes para ajudar a nova geração através de ações sociais, movimento e conhecimento aplicável.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: CAROUSEL -->
+    <section class="carousel-section">
+        <div class="carousel-track">
+            <!-- Images repeated for seamless infinite scrolling -->
+            <img src="images/image copy.png" alt="Movimento Correndo pela Vida">
+            <img src="images/image copy 2.png" alt="Participantes">
+            <img src="images/image copy 3.png" alt="Ação social">
+            <img src="images/image copy 4.png" alt="Crianças no esporte">
+            <img src="images/image copy 5.png" alt="Eventos e corridas">
+            <img src="images/image copy 6.png" alt="Atletas incentivados">
+
+            <img src="images/image copy.png" alt="Movimento Correndo pela Vida">
+            <img src="images/image copy 2.png" alt="Participantes">
+            <img src="images/image copy 3.png" alt="Ação social">
+            <img src="images/image copy 4.png" alt="Crianças no esporte">
+            <img src="images/image copy 5.png" alt="Eventos e corridas">
+            <img src="images/image copy 6.png" alt="Atletas incentivados">
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ -->
+    <section class="faq-section">
+        <div class="section-badge"><i class="fa-solid fa-circle-question"></i> Dúvidas</div>
+        <h2>Perguntas Frequentes</h2>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">Como terei acesso ao material gratuito?</button>
+                <div class="faq-answer">
+                    <p>Assim que preencher o formulário no topo da página, confirmaremos seu acesso e entraremos em contato para enviar o material.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Quais as formas de pagamento para apoiar o projeto?</button>
+                <div class="faq-answer">
+                    <p>O apoio é 100% seguro pelo sistema da Kiwify, aceitando Pix, Cartão de Crédito e Boleto Bancário.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Para quem é recomendado este conteúdo/movimento?</button>
+                <div class="faq-answer">
+                    <p>Para iniciantes que desejam adotar hábitos saudáveis, pessoas buscando qualidade de vida, famílias e educadores que valorizam o desenvolvimento e o bem-estar através do esporte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL LEAD CAPTURE -->
+    <div id="modal-lead" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <h2>Preencha para baixar</h2>
+            <p>Deixe seus dados para receber nosso contato com o material gratuito de "Correndo pela Vida".</p>
+            <!-- PARA SALVAR EM UMA PLANILHA DO GOOGLE SHEETS: 
+                 1. Acesse https://sheetmonkey.io/ e faça login com seu Google.
+                 2. Crie a conexão com uma planilha e cole a Action URL gerada abaixo no atributo 'action'. 
+            -->
+            <form action="https://api.sheetmonkey.io/form/5oG2wssgfx5sksDmP8ay8F" method="POST" class="lead-form">
+                <!-- Data e Hora Automáticas -->
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <!-- IMPORTANT: Tell the user to update the action email above! -->
+                <input type="hidden" name="_subject" value="Novo Lead - Correndo pela Vida!">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <input type="text" name="name" placeholder="Seu Nome completo" required>
+                <input type="tel" name="phone" placeholder="Seu WhatsApp (Ex: 11 99999-9999)" required>
+                <input type="email" name="email" placeholder="Seu Melhor E-mail" required>
+                
+                <!-- Anti-spam -->
+                <input type="text" name="_honey" style="display:none">
+                
+                <button type="submit" class="btn btn-primary btn-submit">Quero meu material grátis!</button>
+            </form>
+
+            <div id="success-message" class="success-message" style="display: none; text-align: center; padding: 2rem 0;">
+                <i class="fa-solid fa-circle-check" style="font-size: 4rem; color: var(--highlight-green); margin-bottom: 1rem;"></i>
+                <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--text-dark);">Tudo certo!</h3>
+                <p>Seus dados foram recebidos. O e-book "Correndo pela Vida" será enviado para o seu contato em breve!</p>
+                <button class="btn btn-secondary" id="btn-close-success" style="margin-top: 1rem; width: 100%;">Entendido</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Modal Logic
+        const btnFree = document.getElementById('btn-free');
+        const modalLead = document.getElementById('modal-lead');
+        const closeModal = document.getElementById('close-modal');
+        const leadForm = document.querySelector('.lead-form');
+        const successMessage = document.getElementById('success-message');
+        const btnCloseSuccess = document.getElementById('btn-close-success');
+
+        function resetModal() {
+            leadForm.reset();
+            leadForm.style.display = 'flex';
+            successMessage.style.display = 'none';
+        }
+
+        btnFree.addEventListener('click', (e) => {
+            e.preventDefault();
+            resetModal();
+            modalLead.classList.add('active');
+        });
+
+        closeModal.addEventListener('click', () => {
+            modalLead.classList.remove('active');
+        });
+
+        btnCloseSuccess.addEventListener('click', () => {
+            modalLead.classList.remove('active');
+        });
+
+        window.addEventListener('click', (e) => {
+            if(e.target === modalLead) {
+                modalLead.classList.remove('active');
+            }
+        });
+
+        // Intercept form submission
+        leadForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevents page reload
+            
+            const btnSubmit = leadForm.querySelector('.btn-submit');
+            btnSubmit.textContent = 'Enviando...';
+            btnSubmit.disabled = true;
+
+            const formData = new FormData(leadForm);
+            
+            fetch(leadForm.action, {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                if(response.ok) {
+                    leadForm.style.display = 'none';
+                    successMessage.style.display = 'block';
+                } else {
+                    alert("Ocorreu um erro ao enviar. Tente novamente.");
+                }
+            }).catch(error => {
+                alert("Ocorreu um erro ao enviar. Tente novamente.");
+            }).finally(() => {
+                btnSubmit.textContent = 'Quero meu material grátis!';
+                btnSubmit.disabled = false;
+            });
+        });
+
+        // FAQ Logic
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = question.classList.contains('active');
+                
+                // Close all others
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                    q.nextElementSibling.style.maxHeight = null;
+                });
+
+                if (!isActive) {
+                    question.classList.add('active');
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
